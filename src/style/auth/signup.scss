@@ -39,12 +39,17 @@
         margin-bottom: 24px;
     }
     &__login {
-       grid-row: line-s/line-e;
+       grid-row:button-s/button-e;
        grid-column: create-s/create-e;
+       transform: translateX(40px);
     }
     &__back {
-        grid-row: line-s/line-e;
+        grid-row:button-s/button-e;
         grid-column: back-s/back-e;
+        button {
+         background: #999;
+         width: 137px;
+     }
     }
     &__details {
        grid-row: 1/-1;
