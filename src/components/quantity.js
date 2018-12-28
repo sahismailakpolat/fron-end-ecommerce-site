@@ -12,7 +12,7 @@ class Quantity extends Component {
                 <div className='quantity__plus'>
                     <i className='fas fa-plus'></i>
                 </div>
-                <div className='quantity_minus'>
+                <div className='quantity__minus'>
                     <i className='fas fa-minus'></i>
                 </div>
             </div>
