@@ -13,7 +13,7 @@ function CartContent({ className, products }) {
     let productsJSX = products.map(product => <h1 key={product}>{product}</h1>);
     return (
         <div className={`${className} cart-content`}>
-            <div className='card-content__title'>
+            <div className='cart-content__title'>
                 Cart ({count})
             </div>
             <div className='cart-content__products'>
