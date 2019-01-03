@@ -40,7 +40,7 @@ class ReviewForm extends Component {
                     </div>
                     <div className='review-details__subtotal review-detail'>
                         <div className='review-detail__title'>Tax</div>
-                        <div className='review-detail__price'>{tax}</div>
+                        <div className='review-detail__price'>${tax}</div>
                     </div>
                     <div className='review-details__subtotal review-detail'>
                         <div className='review-detail__title'>Shipping</div>
